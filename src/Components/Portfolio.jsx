@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Projects.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Projects header image";
 
 /**
  * Project list
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Plant Disease Detection using CNN, SVM & KNN🎉",
+    description: "Group Project to develop a model that can help detect diseases in leaves.",
+    url: "https://github.com/NimraBasit7/Plant-Disease-Detection",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Text Summarizer using NLP",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contributed in creating a Streamlit Web app for Text Summarization using NTLK & spaCy.",
+    url: "https://github.com/NimraBasit7/Text_Summarizer",
   },
   {
-    title: "My Resume Site",
+    title: "Pelicula",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A software that allows user to search TV shows and movies details based on name, year, genre, and synopsis.",
+    url: "https://github.com/NimraBasit7/Pelicula",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Breakout Game",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Breakout is a classic arcade game from the 1970s, still cherished today. Players control a horizontal paddle, aiming to break a wall of colorful bricks above. They use a bouncing ball to hit the bricks and earn points. The game tests hand-eye coordination and reflexes, with increasing difficulty as players progress.",
+    url: "https://github.com/NimraBasit7/Breakout_Game",
   },
 ];
 
@@ -64,7 +63,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "0.5s ease-in-out slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
