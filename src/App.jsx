@@ -29,7 +29,7 @@ const siteProps = {
   email: "nimra.basit@studentambassadors.com",
   gitHub: "NimraBasit7",
   instagram: "",
-  linkedIn: "Nimra Basit",
+  linkedIn: "https://pk.linkedin.com/in/nimra-basit",
   medium: "",
   twitter: "",
   youTube: "",
